@@ -1,0 +1,154 @@
+/*unfortunately css is global*/
+/* styling of the background/ body */
+body{
+    background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+}
+/* styling for the actual box of the login/ register form */
+.registerContainer{
+    margin: 20vh auto;
+    width:45vh;
+    height:55vh;
+    background: #FFFFFF;
+    border-radius: 3vh;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    box-shadow: 0 0 20px 6px #090b6f85;
+}
+.loginContainer{
+    margin: 20vh auto;
+    width:45vh;
+    height:55vh;
+    background: #FFFFFF;
+    border-radius: 3vh;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    box-shadow: 0 0 20px 6px #090b6f85;
+}
+.profileContainer{
+    margin: 20vh auto;
+    width:45vh;
+    height:55vh;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    box-shadow: 0 0 20px 6px #090b6f85;
+}
+.infoContainer{
+    text-align: left;
+    padding:5vh;
+}
+.chatContainer{
+    margin: 20vh auto;
+    width:45vh;
+    height:55vh;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    box-shadow: 0 0 20px 6px #090b6f85;
+}
+/*styling for the header*/
+#headerContainer{
+    background-image: linear-gradient(135deg, #eecda3    10%, #ef629f 100%);
+    height:11vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* chat box styling*/
+#chatBox{
+    overflow: auto;
+    margin: auto;
+    width: 80%;
+    height:60%;
+    background-color: gray;
+}
+/* centers the form elements */
+form{
+    display:inline-block;
+}
+/*makes the username label and text field stack on each other instead of side by side*/
+.formGroup{
+    display:grid;
+    justify-items: center;
+}
+/* login submit button styling*/
+#loginButton{
+    margin-top:20px;
+    width:30vh;
+    border:none;
+    color:black;
+    background-color: violet;
+    border-radius: 4px;
+    transition: ease-out .3s;
+    font-size:none;
+    outline:none;
+    border: 3px solid;
+}
+#registerButton{
+    margin-top:20px;
+    width:30vh;
+    border:none;
+    color:black;
+    background-color: violet;
+    border-radius: 4px;
+    transition: ease-out .3s;
+    font-size:none;
+    outline:none;
+    border: 3px solid;
+}
+/* social media icon button sizes and stuff*/
+#fontAwesome{
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    padding:0 20px 20px 20px;
+    margin:15px;
+    color: blue;
+}
+.registerFromLogin{
+    padding:15px;
+}
+/* controls text fields appearance*/
+input{
+    border:none;
+    appearance:none;
+    background:#f2f2f2;
+    padding:12px;
+    border-radius:3px;
+    width:35vh
+}
+input:focus::placeholder{
+    color:transparent;
+}
+input::placeholder{
+    transition: color .3s ease;
+}
+
+#messages{
+    list-style-type: none;
+    background-color: white;
+    text-align: left;
+    word-wrap: break-word
+}
+
+#profilePictureImage{
+    height:5vh;
+    width:5vh;
+    max-width: 5vh;
+    max-height: 5vh;
+    border-radius: 50%;
+}
+input[type="file"] {
+    display: none;
+}
+.customFile{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
